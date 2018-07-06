@@ -1,0 +1,30 @@
+.Contain {
+  display: flex;
+  flex-direction: column;
+  min-height: 95vh;
+}
+
+.Header {
+  margin-top: 10px !important;
+  margin-bottom: 20px !important;
+}
+
+.Footer {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  flex: 0;
+}
+
+.Main {
+  flex: 1 0 auto;
+}
+
+.Divider {
+  border-top: 1px solid rgba(140, 139, 139, .4);
+}
+
+.Icon {
+  height: 16px;
+  margin-right: 10px;
+}
